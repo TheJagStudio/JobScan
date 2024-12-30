@@ -1,7 +1,7 @@
 import React from "react";
 import { Section } from "./Section";
 
-export const SoftSkillsSection = ({ analysisData }) => {
+export const SummarySection = ({ analysisData }) => {
   const skills = analysisData
     ? {
         identified: analysisData.identified || [],
