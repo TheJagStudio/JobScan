@@ -11,7 +11,7 @@ export const Header: React.FC<HeaderProps> = ({ onReset }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center">
           <ScanSearch className="w-8 h-8 text-blue-500 mr-2" />
-          <span className="text-2xl font-bold text-blue-500">Jobscan</span>
+          <span className="text-2xl font-bold text-blue-500">Resume Scan</span>
         </div>
         <nav className="flex items-center space-x-6">
           <a href="#" className="text-gray-600 hover:text-gray-900">Dashboard</a>
